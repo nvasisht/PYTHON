@@ -1,0 +1,88 @@
+#DATA TYPES 
+x = 5
+print(type(x)) #int
+x = "Hello World"
+print(type(x)) #str 
+x = 20.5
+print(type(x)) #float
+x = ["apple", "banana", "cherry"]
+print(type(x)) #tuple 
+#correct answer is list
+x = ("apple", "banana", "cherry")
+print(type(x)) #tuple
+x = {"name" : "John", "age" : 36}
+print(type(x)) #dict uses (:)
+x = True
+print(type(x)) #bool
+
+#PYTHON SYNTAX
+print("Hello World") 
+
+if 5 > 2:
+ print("Five is greater than two!") #spaces - Indentations
+
+
+ #PYTHON COMMENTS
+ # This is a comment 
+ """ This is a comment
+written in 
+more that just one line """
+#Use a multiline string to make the a multi line comment
+
+
+#PYTHON VARIABLE 
+#Create a variable named carname and assign the value Volvo to it.
+carname ="Volvo" 
+print(carname)
+
+#Create a variable named x and assign the value 50 to it.
+x = 50
+print(x)
+
+#Display the sum of 5 + 10, using two variables: x and y.
+x = 5
+y =10
+print(x + y)
+
+#Create a variable called z, assign x + y to it, and display the result.
+x=5
+y=10
+z=x + y
+print(z)
+
+#Remove the illegal characters in the variable name:4
+
+#2my-first_name = "John"
+my_first_name = "John"
+ 
+#Insert the correct syntax to assign the same value to all three variables in one code line.
+
+x=y=z="oranges"
+
+#Insert the correct keyword to make the variable x belong to the global scope
+def myfunc():
+    global x
+    x ="Fantastic"
+print(x)
+
+
+#NUMBERS 
+
+#Insert the correct syntax to convert x into a floating point number.
+
+x = 5 #int
+x = float(x) 
+print(x)
+
+#Insert the correct syntax to convert x into a integer.
+
+x=5.5
+x= int(x)
+print(x)
+
+
+#Insert the correct syntax to convert x into a complex number.
+
+x=5
+x=complex(x)
+print(x)
