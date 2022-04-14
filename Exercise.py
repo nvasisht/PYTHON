@@ -141,3 +141,14 @@ print(txt)
 age = 36
 txt = "My name is John, and I am {}"
 print(txt.format(age))
+
+
+
+#BOOLEAN 
+
+print(10>9) #True
+print(10==9) #False
+print(10<9) #True ---- wrong answer False
+
+print(bool("abc")) #True
+print(bool(0)) #False 
