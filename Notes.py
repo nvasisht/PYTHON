@@ -6,3 +6,6 @@
 
 
 
+# Loop tuple :
+# Struggling the the range() and len()
+#I am not understanding why the indexes are not dispplayed.
