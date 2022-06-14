@@ -249,3 +249,46 @@ print(fruits[-1])
 
 fruits = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 print(fruits[2:5])
+
+
+
+
+# SETS 
+
+# Check if "apple" is present in the fruits set.
+
+fruits = {"apple", "banana", "cherry"}
+if "apple"in fruits:
+  print("Yes, apple is a fruit!")
+
+
+# Use the add method to add "orange" to the fruits set.
+
+fruits = {"apple", "banana", "cherry"}
+fruits.add("orange")
+print(fruits)
+
+
+# Use the correct method to ---add multiple items--- (more_fruits) to the fruits set.
+
+fruits = {"apple", "banana", "cherry"}
+more_fruits = ["orange", "mango", "grapes"]
+fruits.update(more_fruits)
+print(fruits) 
+# I wasn't sure
+
+
+# Use the remove method to remove "banana" from the fruits set.
+
+fruits = {"apple", "banana", "cherry"}
+fruits.remove("banana")
+print(fruits)
+
+# Use the discard method to remove "banana" from the fruits set.
+
+fruits = {"apple", "banana", "cherry"}
+fruits.discard("banana")
+print(fruits)
+
+
+
