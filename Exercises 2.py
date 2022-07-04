@@ -119,3 +119,77 @@ if 5 > 2: print("Five is greater than two!")
 # Use the correct short hand syntax to write the following conditional expression in one line:
 
 print("Yes") if 5 > 2 else print("No")
+
+
+
+# WHOLE LOOPS:
+
+# Print i as long as i is less than 6.
+
+i = 1
+while i < 6:
+ print(i)
+i += 1
+
+
+# Stop the loop if i is 3.
+
+
+i =1
+while i < 6:
+  if i ==3:
+    break
+  i +=1
+
+
+#In the loop, when i is 3, jump directly to the next iteration.
+
+i = 0 
+while 1 <6:
+  i +=1
+  if i ==3:
+   continue
+print(1)
+
+
+# Print a message once the condition is false.
+
+i = 1
+while i <6:
+  print(i)
+  i +=1
+else:
+  print("i is no longer less than 6")
+
+
+
+
+# For Loops
+
+# Loop through the items in the fruits list.
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+
+
+# In the loop, when the item value is "banana", jump directly to the next item.
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x=="banana":
+    continue
+  print(x)
+
+# Use the range function to loop through a code set 6 times.
+
+
+for x in range(6):
+  print(x)
+
+
+# Exit the loop when x is "banana".
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x=="banana":
+    break
+  print(x)
