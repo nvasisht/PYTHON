@@ -193,3 +193,12 @@ for x in fruits:
   if x=="banana":
     break
   print(x)
+
+
+
+
+# Python Lambda 
+
+# Create a lambda function that takes one parameter (a) and returns it.
+
+x = lambda a : a
